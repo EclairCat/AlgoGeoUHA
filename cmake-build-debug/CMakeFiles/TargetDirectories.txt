@@ -1,0 +1,3 @@
+/home/rabie/UHA/Enveloppe_Convexe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rabie/UHA/Enveloppe_Convexe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rabie/UHA/Enveloppe_Convexe/cmake-build-debug/CMakeFiles/Enveloppe_Convexe.dir
