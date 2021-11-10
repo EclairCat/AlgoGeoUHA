@@ -30,7 +30,6 @@ void trace(const Polygone &P){
         std::cout << cursor->coordonnees().y() << std::endl;
         segment(cursor->coordonnees(), cursor -> suivant()->coordonnees());
         cursor = cursor ->suivant();
-        delay(2000);
     }
 
     std::cout <<  "Tracing DONE!" << std::endl;

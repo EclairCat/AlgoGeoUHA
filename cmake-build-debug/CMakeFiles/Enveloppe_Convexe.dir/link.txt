@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Enveloppe_Convexe.dir/affichage.cpp.o -o Enveloppe_Convexe 

@@ -38,15 +38,7 @@ void enveloppe(vector<Point>&T, Polygone &P){
 
         if(T[index].aGauche(cursor->precedent()->coordonnees(), cursor->coordonnees()) != 1){
             Sommet* t = P.ajouteSommet(T[index], cursor);
-            std::cout << "Sommet : " << std::endl;
-            std::cout << t->coordonnees().x() << std::endl;
-            std::cout << t->coordonnees().y() << std::endl;
-            std::cout << "Sommet precedent: " << std::endl;
-            std::cout << t->precedent().x() << std::endl;
-            std::cout << t->precedent().y() << std::endl;
-            std::cout << "Sommet suivant : " << std::endl;
-            std::cout << t->suivant().x() << std::endl;
-            std::cout << t->suivant().y() << std::endl;
+
             sleep(10);
             index++;
         }
