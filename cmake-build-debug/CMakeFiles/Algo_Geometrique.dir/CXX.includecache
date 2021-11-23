@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Carte/carte.h
+vector
+-
+../Classes/point.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/point.h
+
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/enveloppe.h
+point.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/point.h
+polygone.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/polygone.h
+vector
+-
+
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/point.h
+
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/polygone.h
+point.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/point.h
+
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/affichage.cpp
+graphic/graphics.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/graphic/graphics.h
+Classes/point.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/point.h
+Classes/polygone.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/polygone.h
+Classes/enveloppe.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Classes/enveloppe.h
+iostream
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/iostream
+Carte/carte.h
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/Carte/carte.h
+vector
+-
+
+C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/graphic/graphics.h
+

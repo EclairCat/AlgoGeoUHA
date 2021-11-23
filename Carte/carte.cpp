@@ -30,7 +30,7 @@ DemiCote* Carte::ajouteDemiCote(const Point &p, DemiCote* oppose){
     DemiCote *n_dm = new DemiCote(nullptr,
                                   nullptr,
                                   oppose,
-                                  new Sommet(p),
+                                  new SommetC(p),
                                   d_tabDemiCote.size()
     );
     n_dm->d_suivant = n_dm;

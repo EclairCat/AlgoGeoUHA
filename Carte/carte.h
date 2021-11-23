@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Sommet
+class SommetC
 {
 	friend class Carte;
 	friend class DemiCote;
@@ -14,10 +14,10 @@ class Sommet
 private:
 
 	// Construit un sommet avec les coordonn�es de p
-	Sommet(const Point &p) : d_coordonnees(p) {};
+	SommetC(const Point &p) : d_coordonnees(p) {};
 
 	// Destructeur de sommet priv�
-	~Sommet() = default;
+	~SommetC() = default;
 
 	Point d_coordonnees;
 };
@@ -53,7 +53,7 @@ private:
 
 	// Construit un demi-c�t� dont suivant est le demi-c�t� suivant, precedent est le demi-c�t� pr�c�dent,
 	// oppose est le demi-c�t� oppos�, sommet est le sommet dont il est issu et numero est le num�ro
-	DemiCote(DemiCote* suivant, DemiCote* precedent, DemiCote* oppose, Sommet* sommet, int numero)
+	DemiCote(DemiCote* suivant, DemiCote* precedent, DemiCote* oppose, SommetC* sommet, int numero)
         : d_suivant{suivant}, d_precedent{precedent}, d_oppose{oppose}, d_sommet{sommet}, d_numero{numero}, d_marque{0} {};
 
 	// Destrusteur de demi-c�t� priv�
@@ -63,7 +63,7 @@ private:
 	DemiCote* d_suivant;
 	DemiCote* d_precedent;
 	DemiCote* d_oppose;
-	Sommet* d_sommet;
+	SommetC* d_sommet;
 	int d_numero;       // la position du demi-c�t� dans le tableau d_tabDemiCote
 	int d_marque;	    // la marque du demi-c�t� (0 par d�faut)
 };

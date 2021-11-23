@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="GeoAlgo" targetName="GeoAlgo" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1adbcf2-4a13-490f-8bbf-870c161d89bd" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/Carte/carte.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carte/carte.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carte/triangulation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carte/triangulation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carte/carte.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Carte/carte.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carte/carte.h" beforeDir="false" afterPath="$PROJECT_DIR$/Carte/carte.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/enveloppe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/enveloppe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/enveloppe.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/enveloppe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/point.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/affichage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/affichage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo" beforeDir="false" afterPath="$PROJECT_DIR$/demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/affichage.h" beforeDir="false" afterPath="$PROJECT_DIR$/affichage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -50,24 +60,36 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Carte" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.GeoAlgo">
+    <configuration name="GeoAlgo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GeoAlgo" TARGET_NAME="GeoAlgo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GeoAlgo" RUN_TARGET_NAME="GeoAlgo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="build" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="PATTERN">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.GeoAlgo" />
+      <item itemvalue="CTest Application.build" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +103,10 @@
       <workItem from="1636447321465" duration="10658000" />
       <workItem from="1636551174433" duration="5899000" />
       <workItem from="1636658475240" duration="4000" />
+      <workItem from="1637059078290" duration="10124000" />
+      <workItem from="1637570097993" duration="8909000" />
+      <workItem from="1637672655106" duration="10130000" />
+      <workItem from="1637682919859" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1636458421299</created>
@@ -117,5 +143,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="debut-&gt;d_coordonnees.d_y" />
+        <watch expression="fin-&gt;d_coordonnees" />
+        <watch expression="cursor" />
+        <watch expression="dm_a" />
+        <watch expression="dm_a" />
+        <watch expression="dm_max-&gt;d_oppose-&gt;d_suivant-&gt;d_sommet" />
+        <watch expression="cursor-&gt;d_oppose-&gt;d_sommet" />
+        <watch expression="C.d_tabDemiCote[47]-&gt;d_suivant-&gt;d_sommet" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

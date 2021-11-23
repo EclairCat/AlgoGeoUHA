@@ -5,7 +5,7 @@
 
 int Point::aGauche(const Point &a, const Point &b) const{
 
-    int determinant = abs(b.x()-a.x()) * abs(d_y - a.y()) - abs(d_x - a.x()) * abs(b.y() - a.y());
+    int determinant = ( (b.x()-a.x())  * (d_y - a.y()) ) - ( (d_x - a.x()) * (b.y() - a.y()) ) ;
     int res = 0;
     if(determinant < 0){
         std::cout << "A Droite!" << std::endl;

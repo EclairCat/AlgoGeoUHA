@@ -1,1 +1,4 @@
-CMakeLists.txt not found in /home/rabie/UHA/Enveloppe_Convexe Select CMakeLists.txt
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\RabiePC\Mon Dossier\UHA\Algo\Geometrique"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/RabiePC/Mon Dossier/UHA/Algo/Geometrique/cmake-build-debug
